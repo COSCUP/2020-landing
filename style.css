@@ -5,3 +5,13 @@
 .nav-link img {
   width: 18px;
 }
+
+@media (max-width: 600px) {
+  .nav-link img {
+    width: 12px;
+  }
+
+  #heading {
+    display: none;
+  }
+}
