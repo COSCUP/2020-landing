@@ -1,5 +1,7 @@
 h1 {
-  color: #143414;
+  color: #489f45;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 /* #main-div {
@@ -22,6 +24,16 @@ h1 {
 
 #main-div img {
   width: 2rem;
+}
+
+#heading-div {
+  padding-right: 2rem;
+}
+
+#detail-div div {
+  margin-top: 1rem;
+  font-size: 2rem;
+  background-image: linear-gradient(0deg, #e0efdf 25%, transparent 50%);
 }
 
 .nav-link img {
