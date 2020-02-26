@@ -123,17 +123,22 @@ button:active {
 
 #archives {
   margin-bottom: 1.5rem;
-  color: white;
+  color: grey;
 }
 
 #language {
   text-align: center;
-  color: grey;
   margin-bottom: 0.5rem;
 }
 
-#language a {
+#language a,
+#archives a {
+  color: grey;
   text-decoration: none;
+}
+
+#language a:active {
+  color: #489f45;
 }
 
 #language a:visited {
@@ -144,10 +149,6 @@ button:active {
 #language a:hover,
 #archives a:hover {
   color: #489f45;
-}
-
-#archives a {
-  color: grey;
 }
 
 @media (max-width: 600px) {
