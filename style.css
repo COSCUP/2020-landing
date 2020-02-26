@@ -84,11 +84,15 @@ h1 {
   color: grey;
 }
 
-@media (max-width: 600px) {
-  /* .nav-link img {
-    width: 12px;
-  } */
+@media (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
+@media (max-width: 600px) {
   #heading {
     display: none;
   }
