@@ -126,22 +126,29 @@ button:active {
   color: white;
 }
 
-#archives a {
+#language {
+  text-align: center;
+  color: grey;
+  margin-bottom: 0.5rem;
+}
+
+#language a {
+  text-decoration: none;
+}
+
+#language a:visited {
+  text-decoration: none;
   color: grey;
 }
 
-/* @media (max-width: 1024px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 2rem;
-  }
+#language a:hover,
+#archives a:hover {
+  color: #489f45;
+}
 
-  #icons-div {
-    padding-top: 1rem;
-  }
-} */
+#archives a {
+  color: grey;
+}
 
 @media (max-width: 600px) {
   header {
