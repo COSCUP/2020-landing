@@ -26,8 +26,9 @@ h1 {
   width: 2rem;
 }
 
-#heading-div {
-  padding-right: 2rem;
+#logo-div img {
+  width: 30vw;
+  padding-right: 3rem;
 }
 
 #detail-div div {
@@ -47,5 +48,24 @@ h1 {
 
   #heading {
     display: none;
+  }
+
+  #main-div {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #logo-div img {
+    width: 60vw;
+    padding: 0 0;
+  }
+
+  #detail-div div {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    background-image: linear-gradient(0deg, #e0efdf 25%, transparent 50%);
   }
 }
