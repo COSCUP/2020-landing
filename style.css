@@ -8,6 +8,12 @@ body {
   flex-direction: column;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -60,8 +66,13 @@ h1 {
   text-align: center;
 }
 
-.nav-link img {
-  width: 18px;
+.icon-link {
+  text-decoration: none;
+}
+
+.icon-link img {
+  width: 1.5rem;
+  margin-right: 0.5rem;
 }
 
 #archives {
