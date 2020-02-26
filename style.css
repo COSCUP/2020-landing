@@ -1,6 +1,9 @@
 html,
 body {
   height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
@@ -12,6 +15,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 1rem;
+  /* background-color: #e0efdf; */
 }
 
 main {
@@ -20,6 +25,8 @@ main {
 
 footer {
   flex-shrink: 0;
+  /* background-color: #e0efdf; */
+  padding-top: 1rem;
 }
 
 h1 {
@@ -77,7 +84,7 @@ h1 {
 
 #archives {
   margin-bottom: 1.5rem;
-  color: grey;
+  color: white;
 }
 
 #archives a {
