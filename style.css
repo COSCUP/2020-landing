@@ -46,6 +46,13 @@ h1 {
   margin: 5% auto;
 } */
 
+#about-div {
+  max-width: 80vw;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  background-color: #e0efdf;
+}
+
 #main-div {
   margin-top: 5rem;
   display: flex;
