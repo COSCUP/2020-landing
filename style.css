@@ -16,7 +16,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
-  /* background-color: #e0efdf; */
 }
 
 main {
@@ -25,7 +24,6 @@ main {
 
 footer {
   flex-shrink: 0;
-  /* background-color: #e0efdf; */
   padding-top: 1rem;
 }
 
@@ -35,26 +33,14 @@ h1 {
   font-weight: bold;
 }
 
-/* #main-div {
-  background: rgb(255, 255, 255);
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 15%,
-    rgba(223, 239, 222, 1) 100%
-  );
-  width: 80vw;
-  margin: 5% auto;
-} */
-
 #about-div {
-  max-width: 80vw;
+  max-width: 70vw;
   margin: 0.5rem auto;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   background-color: #e0efdf;
 }
 
 #main-div {
-  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,7 +165,6 @@ button:active {
   }
 
   #main-div {
-    margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -195,6 +180,10 @@ button:active {
     margin-top: 1rem;
     font-size: 1.5rem;
     background-image: linear-gradient(0deg, #e0efdf 25%, transparent 50%);
+  }
+
+  #about-div {
+    margin-top: 3rem;
   }
 
   #archives {
