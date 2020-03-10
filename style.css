@@ -83,6 +83,11 @@ h1 {
   padding-left: 0.5rem;
 }
 
+#icons-div svg:hover {
+  fill: currentColor;
+  color: #e0efdf;
+}
+
 button {
   font-size: 1rem;
   padding: 6px 12px;
