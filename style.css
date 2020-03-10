@@ -75,6 +75,12 @@ h1 {
   margin-right: 0.5rem;
 }
 
+#icons-div svg {
+  fill: currentColor;
+  color: #489f45;
+  width: 1.5rem;
+}
+
 button {
   font-size: 1rem;
   padding: 6px 12px;
