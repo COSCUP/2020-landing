@@ -78,7 +78,8 @@ h1 {
 #icons-div svg {
   fill: currentColor;
   color: #489f45;
-  width: 1.5rem;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
 }
 
 button {
