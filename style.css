@@ -70,16 +70,17 @@ h1 {
   text-decoration: none;
 }
 
-.icon-link img {
-  width: 1.5rem;
-  margin-right: 0.5rem;
+#icons-div {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #icons-div svg {
   fill: currentColor;
   color: #489f45;
-  max-width: 1.5rem;
-  max-height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
 }
 
 button {
