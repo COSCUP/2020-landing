@@ -1,0 +1,6 @@
+language: minimal
+deploy:
+  provider: script
+  script: bash update-main-repo.sh
+  on:
+    branch: master
